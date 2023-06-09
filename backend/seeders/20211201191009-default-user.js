@@ -19,7 +19,7 @@ module.exports = {
       );
       return queryInterface.bulkInsert("users", [
         {
-          name: "Brunno Benites Barbosa",
+          name: "Brunno Benites",
           email: process.env.DEFAULT_EMAIL,
           password: bcrypt.hashSync(process.env.DEFAULT_PWD),
           limitId,

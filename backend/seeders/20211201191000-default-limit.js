@@ -9,20 +9,10 @@ module.exports = {
     if (!limitId) {
       return queryInterface.bulkInsert("limits", [
         {
-          name: "Silver",
+          name: "Gold",
           maxAutomations: 8,
           maxMonitors: 8,
           maxBacktests: 8,
-          isActive: true,
-          hasFutures: true,
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          name: "Gold",
-          maxAutomations: 100,
-          maxMonitors: 100,
-          maxBacktests: 100,
           isActive: true,
           hasFutures: true,
           createdAt: new Date(),
