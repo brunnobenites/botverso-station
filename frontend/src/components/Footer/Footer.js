@@ -10,7 +10,7 @@ function Footer() {
               © 2023-<span className="current-year">2023</span>{" "}
               <a
                 className="text-primary fw-normal"
-                href="https://www.luiztools.com.br"
+                href="https://www.codems.com.br"
               >
                 CodeMS Botverso
               </a>
@@ -19,16 +19,16 @@ function Footer() {
           <div className="col-12 col-md-8 col-xl-6 text-center text-lg-start">
             <ul className="list-inline list-group-flush list-group-borderless text-md-end mb-0">
               <li className="list-inline-item px-0 px-sm-2">
-                <a href="https://www.luiztools.com.br/sobre">About</a>
+                <a href="https://www.codems.com.br">About</a>
               </li>
               <li className="list-inline-item px-0 px-sm-2">
-                <a href="https://www.luiztools.com.br/meus-cursos">Bots</a>
+                <a href="https://www.codems.com.br">Bots</a>
               </li>
               <li className="list-inline-item px-0 px-sm-2">
-                <a href="https://www.luiztools.com.br/meus-livros">Setups</a>
+                <a href="https://www.codems.com.br">Setups</a>
               </li>
               <li className="list-inline-item px-0 px-sm-2">
-                <a href="https://about.me/luiztools">Contact</a>
+                <a href="https://www.codems.com.br">Contact</a>
               </li>
             </ul>
           </div>
