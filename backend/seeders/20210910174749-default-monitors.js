@@ -89,19 +89,6 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date(),
         },
-        {
-          type: monitorTypes.LIQUIDATION,
-          broadcastLabel: "liquidation",
-          symbol: "*",
-          interval: null,
-          userId: null,
-          isActive: true,
-          isSystemMon: true,
-          indexes: null,
-          logs: false,
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
       ]);
     }
   },
