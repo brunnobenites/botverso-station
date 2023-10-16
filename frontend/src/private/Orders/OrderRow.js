@@ -44,8 +44,8 @@ function OrderRow(props) {
                     )
             }{
                     props.data.side === 'BUY'
-                        ? <span className="badge bg-warning py-1 me-2">Buy</span>
-                        : <span className="badge bg-warning py-1 me-2">Sell</span>
+                        ? <span className="badge bg-success py-1 me-2">Buy</span>
+                        : <span className="badge bg-danger py-1 me-2">Sell</span>
                 }
                 {props.data.symbol}
             </td>
